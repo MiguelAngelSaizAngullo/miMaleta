@@ -1,0 +1,352 @@
+*{
+    font-size: 16px;
+}
+
+body{
+    width: 1440px;
+    height: 3506px;
+    margin: 0 auto;
+    
+}
+
+.fondo{
+    background-color: #398269;
+}
+
+nav{
+    background-color: #00565f;
+    display: flex;
+    width: 1440px;
+    height: 103px;
+}
+
+.logo_texto{
+    display: flex;
+    margin-left: 20px;
+}
+
+.logo_texto img{
+    width: 70px;
+    height: 89px;
+}
+
+.logo_texto p{
+    color: #FFFFFF;
+    font-family: "Dancing Script", serif;
+    width: 136px;
+    height: 17px;
+    font-size: 40px;
+    margin-top: 25px;
+    margin-left: 16px;
+}
+
+.opciones{
+    margin-top: 25px;
+    margin-left: 312px;
+}
+
+.opciones ul{
+    display: flex;
+    gap: 26px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.opciones ul li{
+    list-style: none;
+}
+
+.opciones ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-family: "Dancing Script", serif;
+}
+
+.boton{
+    margin-left: 380px;
+    margin-top: 28px;
+}
+
+.boton button{
+    border-color: #FFFFFF;
+    border-radius: 5px;
+    width: 200px;
+    height: 47px;
+    background-color: #00565f;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: "Dancing Script", serif;
+}
+
+#tituloMaletas{
+    display: flex;
+}
+
+#titulo{
+    width: 744px;
+    height: 264px;
+    margin-top: 111px;
+    margin-left: 76px;
+    font-family: "Courgette", serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62.5px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#imagenMaletas{
+    float: right;
+    margin-top: 12px;
+    margin-left: 52px;
+}
+
+#encabezado a{
+    top: -105px;
+    margin-left: 133px;
+    text-decoration: none;
+    font-family: "Courgette", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.entregasRecientes{
+    position: relative;
+    top: -79px;
+}
+
+.entregasRecientes h1{
+    height: 71px;
+    font-family: "Courgette";
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62.5px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#pExplicacion1{
+    font-family: "Courier Prime";
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 28.08px;
+    text-align: center;
+    position: relative;
+    top: -25px;
+    color: #FFFFFF;
+}
+
+#pExplicacion2{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 28.32px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    position: relative;
+    top: -30px;
+}
+
+.productos{
+    width: 1329px;
+    height: 498px;
+    display: flex;
+    gap: 89px;
+    margin-left: 133px;
+}
+
+.producto{
+    width: 348px;
+    height: 463px;
+    border: none;
+    border-radius: 10px;
+}
+
+.gris{
+    width: 348px;
+    height: 235px;
+    background-color: #c4c4cc;
+    border-radius: 10px 10px 0 0;
+}
+
+.gris img{
+    margin-top: 10px;
+    margin-left: 74px;
+}
+
+.blanco{
+    width: 348px;
+    height: 228px;
+    background-color: #FFFFFF;
+    border-radius: 0 0 10px 10px;
+}
+
+.blanco .banderas{
+    display: flex;
+    gap: 19px;
+    position: relative;
+    top: 45px;
+    justify-content: center;
+}
+
+.pBoton{
+    display: flex;
+    gap: 29px;
+    margin-left: 22px;
+    margin-top: 70px;
+}
+
+.pBoton p{
+    border: none;
+    width: 140px;
+    height: 35px;
+    border-radius: 15px;
+    background-color: #FA9C86;
+    text-align: center;
+    align-content: center;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16.99px;
+}
+
+.gris #imagenEspecial{
+    margin-left: 7px;
+}
+
+.comoFunciona{
+    position: relative;
+    top: -79px;
+}
+
+.comoFunciona h1{
+    width: 574px;
+    height: 79px;
+    font-family: "Courgette", serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62.5px;
+    margin-left: 405px;
+    color: #FFFFFF;
+}
+
+.aflex{
+    display: flex;
+    gap: 3px;
+    margin-left: 554px;
+    position: relative;
+    top: -50px;
+}
+
+.aflex a{
+    text-decoration: none;
+    color: #FFFFFF;
+    width: 146px;
+    height: 35px;
+    font-family: "Courgette", serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31.25px;
+    text-align: center;
+}
+
+.aflex #vendedores{
+    border-bottom: 3px solid #6088EF;
+}
+
+.comoFunciona hr{
+    width: 917px;
+    color: #E2E2E2;
+    margin-left: 244px;
+    position: relative;
+    top: -50px;
+}
+
+.comoFunciona #explicacion{
+    width: 515px;
+    height: 165px;
+    margin-left: 450px;
+    font-family: "Courgette", serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31.25px;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    top: -40px;
+}
+
+.compradores{
+    border: 1px solid #FFFFFF;
+    margin-left: 219px;
+    width: 917px;
+    height: 325px;
+    margin-top: 55px;
+    border-radius: 5px;
+}
+
+.compradores .textoIzquierda{
+    float: left;
+}
+
+.compradores .textoIzquierda .flex{
+    display: flex;
+}
+
+.compradores .textoIzquierda .numero{
+    width: 58px;
+    height: 66px;
+    font-family: "Courgette", serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62.5px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 23px;
+}
+
+.compradores .textoIzquierda h2{
+    width: 446px;
+    height: 79px;
+    font-family: "Courgette", serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37.5px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 20px;
+    position: relative;
+    top: 38px;
+}
+
+.compradores .textoIzquierda .texto{
+    width: 424px;
+    height: 127px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 28.32px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 115px;
+    position: relative;
+    top: -30px;
+}
+
+.compradores .imagenDerecha{
+    float: right;
+}
+
+.compradores .imagenDerecha img{
+    width: 327px;
+    height: 326px;
+}
+
+.aflex a #compradores{
+    border-bottom: 3px solid #6088EF;
+}
