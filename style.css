@@ -354,6 +354,20 @@ nav{
     top: -100px;
 }
 
+.compradores .textoIzquierda .texto3{
+    width: 424px;
+    height: 127px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28.32px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 115px;
+    position: relative;
+    top: -70px;
+}
+
 .compradores .imagenDerecha{
     float: right;
 }
