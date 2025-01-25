@@ -11,6 +11,7 @@ body{
 
 .fondo{
     background-color: #398269;
+    height: 3200px;
 }
 
 nav{
@@ -379,4 +380,19 @@ nav{
 
 .aflex a #compradores{
     border-bottom: 3px solid #6088EF;
+}
+
+button{
+    width: 578px;
+    height: 111px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    background-color: #398269;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 400;
+    font-family: "Dancing Script", serif;
+    font-size: 50px;
+    line-height: 60px;
+    margin-left: -325px;
 }
