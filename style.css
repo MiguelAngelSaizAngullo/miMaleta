@@ -308,6 +308,8 @@ nav{
     text-align: center;
     color: #FFFFFF;
     margin-left: 23px;
+    position: relative;
+    top: -20px;
 }
 
 .compradores .textoIzquierda h2{
@@ -321,7 +323,7 @@ nav{
     color: #FFFFFF;
     margin-left: 20px;
     position: relative;
-    top: 38px;
+    top: 10px;
 }
 
 .compradores .textoIzquierda .texto{
@@ -335,7 +337,21 @@ nav{
     color: rgba(255, 255, 255, 0.7);
     margin-left: 115px;
     position: relative;
-    top: -30px;
+    top: -50px;
+}
+
+.compradores .textoIzquierda .texto2{
+    width: 424px;
+    height: 127px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 28.32px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 115px;
+    position: relative;
+    top: -100px;
 }
 
 .compradores .imagenDerecha{
