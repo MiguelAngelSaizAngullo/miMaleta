@@ -69,7 +69,7 @@ nav{
     margin-top: 28px;
 }
 
-.boton button{
+.boton #inicioSesion{
     border-color: #FFFFFF;
     border-radius: 5px;
     width: 200px;
@@ -382,7 +382,7 @@ nav{
     border-bottom: 3px solid #6088EF;
 }
 
-button{
+#crearPedido{
     width: 578px;
     height: 111px;
     border: 1px solid #FFFFFF;
