@@ -376,6 +376,7 @@ nav{
 .compradores .imagenDerecha img{
     width: 327px;
     height: 326px;
+    overflow: hidden;
 }
 
 .aflex a #compradores{
