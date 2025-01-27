@@ -5,9 +5,15 @@
     margin: 50px auto;
 }
 
+.volverAtras img{
+    width: 40px;
+    margin-top: 70px;
+    margin-left: 98px;
+}
+
 .h1 h1{
     position: relative;
-    top: 156px;
+    top: 75px;
     width: 453px;
     height: 62px;
     font-family: "Courgette", serif;
@@ -21,7 +27,7 @@
 
 form{
     position: relative;
-    top: 150px;
+    top: 75px;
     margin-left: 130px;
 }
 

@@ -70,7 +70,7 @@ nav{
 }
 
 .boton #inicioSesion{
-    border-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
     border-radius: 5px;
     width: 200px;
     height: 47px;
@@ -78,6 +78,10 @@ nav{
     color: #FFFFFF;
     font-size: 30px;
     font-family: "Dancing Script", serif;
+}
+
+.boton #inicioSesion:hover{
+    cursor: pointer;
 }
 
 #tituloMaletas{
@@ -103,9 +107,25 @@ nav{
     margin-left: 52px;
 }
 
-#encabezado a{
+.comoFuncionaHeader{
+    position: relative;
+    display: flex;
     top: -105px;
-    margin-left: 133px;
+    gap: 10px;
+}
+
+.comoFuncionaHeader .img{
+    margin-left: 95px;
+    border: 1px solid #ffffff;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 29px;
+    height: 29px;
+}
+
+.comoFuncionaHeader a{
     text-decoration: none;
     font-family: "Courgette", serif;
     font-weight: 400;
@@ -114,6 +134,7 @@ nav{
     text-align: center;
     color: #FFFFFF;
     position: relative;
+    margin-top: 5px;
 }
 
 .entregasRecientes{
