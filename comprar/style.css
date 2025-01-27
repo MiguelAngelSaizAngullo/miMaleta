@@ -1,0 +1,86 @@
+body{
+    width: 1440px;
+    height: 3506px;
+    margin: 0 auto;
+    
+}
+
+.fondo{
+    background-color: #398269;
+    height: 3200px;
+}
+
+nav{
+    background-color: #00565f;
+    display: flex;
+    width: 1440px;
+    height: 103px;
+}
+
+.logo_texto{
+    display: flex;
+    margin-left: 20px;
+}
+
+.logo_texto img{
+    width: 70px;
+    height: 89px;
+}
+
+.logo_texto p{
+    color: #FFFFFF;
+    font-family: "Dancing Script", serif;
+    width: 136px;
+    height: 17px;
+    font-size: 40px;
+    margin-top: 25px;
+    margin-left: 16px;
+}
+
+.opciones{
+    margin-top: 25px;
+    margin-left: 312px;
+}
+
+.opciones ul{
+    display: flex;
+    gap: 26px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.opciones ul li{
+    list-style: none;
+}
+
+.opciones ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-family: "Dancing Script", serif;
+}
+
+.opciones ul li #comprar{
+    border-spacing: 0px 0px 10px 0px;
+    border-bottom: 3px solid #398269;
+}
+
+.boton{
+    margin-left: 380px;
+    margin-top: 28px;
+}
+
+.boton #inicioSesion{
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    width: 200px;
+    height: 47px;
+    background-color: #00565f;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: "Dancing Script", serif;
+}
+
+.boton #inicioSesion:hover{
+    cursor: pointer;
+}
