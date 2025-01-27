@@ -1,0 +1,126 @@
+.fondo{
+    background-color: #00565F;
+    width: 1200px;
+    height: 1500px;
+    margin: 50px auto;
+}
+
+.h1 h1{
+    position: relative;
+    top: 156px;
+    width: 453px;
+    height: 62px;
+    font-family: "Courgette", serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62.5px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+form{
+    position: relative;
+    top: 150px;
+    margin-left: 130px;
+}
+
+.campos input{
+    width: 939px;
+    height: 105px;
+    border: none ;
+    border-radius: 5px;
+    background-color: #398269;
+    margin-top: 50px;
+}
+
+.campos input::placeholder{
+    width: 302px;
+    height: 56px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 56.94px;
+    color: #000000;
+    position: relative;
+    left: 24px;
+}
+
+.campos input:focus{
+    outline: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 56.94px;
+}
+
+.olvidarContrasenya p{
+    margin-top: 27px;
+    width: 939px;
+    height: 59px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 56.64px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.olvidarContrasenya a{
+    text-decoration: none;
+}
+
+.boton{
+    margin-top: 50px;
+}
+
+.boton button{
+    width: 939px;
+    height: 105px;
+    background-color: #FA9C86;
+    border: none;
+    border-radius: 5px;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 56.64px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.boton button:hover{
+    cursor: pointer;
+}
+
+.texto{
+    display: flex;
+    gap: 5px;
+    width: 100%;
+    align-content: center;
+    margin-left: 50px;
+}
+
+.texto #pEspecial1{
+    width: 568px;
+    height: 59px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 56.64px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.texto a{
+    text-decoration: none;
+}
+
+.texto #pEspecial2{
+    width: 288px;
+    height: 59px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 56.64px;
+    text-align: center;
+    color: #FA9C86;
+}
